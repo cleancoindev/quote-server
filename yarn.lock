@@ -204,7 +204,16 @@
     tslint-react "^3.2.0"
     tsutils "3.0.0"
 
-"@0x/types@^3.1.2", "@0x/types@^3.3.1":
+"@0x/types@^3.3.0":
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/@0x/types/-/types-3.3.6.tgz#2746137791d5c8ca6034311a9327fc78b46c5f63"
+  integrity sha512-ljtc9X4BnlM+MkcLet6hypsF1og0N4lMxt/2nNuPvbI6qude1kdu7Eyw2yb8fpwQfClTtR4rYUT6DeL0zh7qmQ==
+  dependencies:
+    "@types/node" "12.12.54"
+    bignumber.js "~9.0.2"
+    ethereum-types "^3.7.0"
+
+"@0x/types@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@0x/types/-/types-3.3.1.tgz#24f3f805d89c1235602abbef12bbeb7e92db9d63"
   integrity sha512-QV5oiuW97LTrOxvRznHozkDdMP/7mU5VRT00l7YnE/PwI81Pk6MuO6cGdTvJvlqCu0wpvmKmMpLi/GmI59w/yA==
@@ -233,7 +242,19 @@
     ethereum-types "^2.1.6"
     popper.js "1.14.3"
 
-"@0x/typescript-typings@^5.0.2", "@0x/typescript-typings@^5.1.6":
+"@0x/typescript-typings@^5.1.5":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@0x/typescript-typings/-/typescript-typings-5.3.1.tgz#853bcad04fbaee4af63532317d7f9ef486dfbb1a"
+  integrity sha512-baxz6gTNDI+q/TBOm8xXeqCiCu/Rw6a/cpuWzjFNPPTMgO7o4nsk6fIGFGJLuSGUmDMOx+YVzUB0emV6dMtMxA==
+  dependencies:
+    "@types/bn.js" "^4.11.0"
+    "@types/node" "12.12.54"
+    "@types/react" "*"
+    bignumber.js "~9.0.2"
+    ethereum-types "^3.7.0"
+    popper.js "1.14.3"
+
+"@0x/typescript-typings@^5.1.6":
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/@0x/typescript-typings/-/typescript-typings-5.1.6.tgz#f6a64c1038930fc822606f543c5bce66c2113141"
   integrity sha512-h7PPkvWgcyq9MEhXaTNQMu7pKkucXx6MQbXvsjTL5InZCfEG815n9w6LWxxRu7jCSYLcQhfeRDAbf3LPd6FZEg==
@@ -257,18 +278,19 @@
     ethereum-types "^3.6.0"
     popper.js "1.14.3"
 
-"@0x/utils@^5.4.1":
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/@0x/utils/-/utils-5.4.1.tgz#5ec5f0d08dad38543b6ff8199bdf8f3d0e63488e"
+"@0x/utils@^5.6.4":
+  version "5.6.4"
+  resolved "https://registry.yarnpkg.com/@0x/utils/-/utils-5.6.4.tgz#0158ec3243bbee444d90afbd79981321d19ccdfd"
+  integrity sha512-VBstWULWGxRbTIMN0QdOthdmZ109LPzPTR3GwbI4svZBizkype/lhRlyCd/B3+qpbpyREAfC8Jn1lUUbk4cwpQ==
   dependencies:
-    "@0x/types" "^3.1.2"
-    "@0x/typescript-typings" "^5.0.2"
-    "@types/node" "*"
+    "@0x/types" "^3.3.0"
+    "@0x/typescript-typings" "^5.1.5"
+    "@types/node" "12.12.54"
     abortcontroller-polyfill "^1.1.9"
     bignumber.js "~9.0.0"
     chalk "^2.3.0"
     detect-node "2.0.3"
-    ethereum-types "^3.1.0"
+    ethereum-types "^3.3.3"
     ethereumjs-util "^5.1.1"
     ethers "~4.0.4"
     isomorphic-fetch "2.2.1"
@@ -1553,6 +1575,11 @@ bignumber.js@~8.0.2:
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-8.0.2.tgz#d8c4e1874359573b1ef03011a2d861214aeef137"
   integrity sha512-EiuvFrnbv0jFixEQ9f58jo7X0qI2lNGIr/MxntmVzQc5JUweDSh8y8hbTCAomFtqwUPIOWcLXP0VEOSZTG7FFw==
 
+bignumber.js@~9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.2.tgz#71c6c6bed38de64e24a65ebe16cfcf23ae693673"
+  integrity sha512-GAcQvbpsM0pUb0zw1EI0KhQEZ+lRwR5fYaAp3vPOYuP7aDvGy6cVN6XHLauvF8SOga2y0dcLcjt3iQDTSEliyw==
+
 bindings@^1.4.0, bindings@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
@@ -2776,7 +2803,15 @@ ethereum-types@^2.1.6:
     "@types/node" "*"
     bignumber.js "~8.0.2"
 
-ethereum-types@^3.1.0, ethereum-types@^3.4.0:
+ethereum-types@^3.3.3, ethereum-types@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/ethereum-types/-/ethereum-types-3.7.0.tgz#2fec14cebef6e68f3b66a6efd4eaa1003f2c972b"
+  integrity sha512-7gU4cUkpmKbAMgEdF3vWFCcLS1aKdsGxIFbd8WIHgBOHLwlcjfcxtkwrFGXuCc90cg6V4MDA9iOI7W0hQ7eTvQ==
+  dependencies:
+    "@types/node" "12.12.54"
+    bignumber.js "~9.0.2"
+
+ethereum-types@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/ethereum-types/-/ethereum-types-3.4.0.tgz#866091997c052db6a075e01e857bbfa04ca9e28b"
   integrity sha512-+UIfqiS/HbQTjww7/bmkz1DI4D4Brw2R/NLsEcT2Gm8ilHgmJZAEzhp3c/J3h5+j1RnyqsAmNH9cRc8hdIeRsQ==
